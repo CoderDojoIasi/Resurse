@@ -1,0 +1,91 @@
+body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  width: 100% !important;
+  box-sizing: border-box;
+  font-family:'helvetica', sans-serif;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e7e7e7 url(http://www.blirk.net/wallpapers/1366x768/nature-wallpaper-266.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: #f9f9f9;
+  right: 0;
+  opacity: 0.83;
+  position: absolute;
+}
+
+.content {
+  width: 250px;
+  margin: 0 auto;
+  top: 25%;
+  position: absolute;
+  left: 48%;
+  margin-left: -125px;
+}
+
+.content h2 {
+  color: #03A9F4;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.right input{
+	display: block;
+	width: 100%;
+	margin: 17px auto;
+	border:0;
+	border-bottom:2px solid #e7e7e9;
+	padding: 13px;
+  font-size: 17px;
+	outline:0;
+}
+
+.right button {
+	background-color: #03A9F4;
+	color: #fff;
+	font:600 16px sans-serif;
+	width: 100%;
+	padding:15px;
+	outline:0;
+	border:0px;
+	margin-top:10px;
+	border-radius:3px;
+}
+
+.right button:hover {
+  background: #0288D1;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.right input {
+	background: #eee;
+	padding-left: 45px;
+}
+
+
+.right input[name="username"] {
+	background: transparent url("http://oi59.tinypic.com/e7mr0z.jpg") no-repeat;
+	background-position: 10px 50%;
+	color:#151718;
+	font:750 21px helvetica;
+}
+
+.right input[name="password"] {
+	background: transparent url("http://oi60.tinypic.com/os92eo.jpg") no-repeat;
+	background-position: 10px 50%;
+	color:#151718;
+	font:750 21px helvetica;
+}
